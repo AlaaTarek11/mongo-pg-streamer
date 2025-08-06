@@ -94,7 +94,7 @@ The consumer application needs a table in PostgreSQL to write the data into.
 
 Now, we instruct Kafka Connect to start monitoring our MongoDB `users` collection.
 
-Run the following `curl` command from your host machine's terminal. This sends the connector configuration to the Kafka Connect REST API.
+Run the following `curl` command from your host machine's bash terminal. This sends the connector configuration to the Kafka Connect REST API.
 
 ```bash
 curl -X POST http://localhost:8083/connectors -H "Content-Type:application/json" -d '{
