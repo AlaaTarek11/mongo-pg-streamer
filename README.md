@@ -164,6 +164,8 @@ The real power of this pipeline is capturing live changes.
     ```javascript
     // In the mongosh shell
     use productionData;
+    ```
+    ```javascript
     db.users.insertOne({name:"Elly", email:"elly@company.com", age:40});
     ```
 2.  **Query PostgreSQL again.** A few moments later, run `SELECT * FROM users;`. You will see Elly's record has appeared automatically.
