@@ -134,7 +134,8 @@ Let's insert some data into MongoDB. Debezium will perform an initial "snapshot"
 2.  Run the following commands:
     ```javascript
     use productionData;
-
+    ```
+    ```javascript
     db.users.insertMany([
       { name: "John", email: "john@example.com", age: 30 },
       { name: "Emma", email: "emma@example.com", age: 25 },
