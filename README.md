@@ -162,7 +162,6 @@ The real power of this pipeline is capturing live changes.
 
 1.  **Insert a new document** into MongoDB:
     ```javascript
-    // In the mongosh shell
     use productionData;
     ```
     ```javascript
